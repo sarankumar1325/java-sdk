@@ -2,7 +2,7 @@
 
 This module provides a conformance test client implementation for the Java MCP SDK's **auth** suite.
 
-OAuth2 support is not implemented in the SDK itself, but we provide hooks to implement the Authorization section of the specification. One such implementation is done in Spring, with Sprign AI and the [mcp-client-security](https://github.com/springaicommunity/mcp-client-security) library.
+OAuth2 support is not implemented in the SDK itself, but we provide hooks to implement the Authorization section of the specification. One such implementation is done in Spring, with Spring AI and the [mcp-client-security](https://github.com/spring-ai-community/mcp-security) library.
 
 This is a Spring web application, we interact with it through a normal HTTP-client that follows redirects and performs OAuth2 authorization flows.
 
@@ -120,5 +120,5 @@ Currently, there are no known issues in the auth suite implementation.
 
 - [MCP Specification — Authorization](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)
 - [MCP Conformance Tests](https://github.com/modelcontextprotocol/conformance)
-- [mcp-client-security Library](https://github.com/springaicommunity/mcp-client-security)
+- [mcp-client-security Library](https://github.com/spring-ai-community/mcp-security)
 - [SDK Integration Guide](https://github.com/modelcontextprotocol/conformance/blob/main/SDK_INTEGRATION.md)

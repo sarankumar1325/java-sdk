@@ -84,7 +84,7 @@ in the anchor release (`0.2.0-alpha.10`) as `not_scored`. Pending scenarios are 
 **Status: 193 checks passed, 0 failed, 0 warnings across 14 scenarios**
 
 Uses the `client-spring-http-client` module with Spring Security OAuth2 and the
-[mcp-client-security](https://github.com/springaicommunity/mcp-client-security) library.
+[mcp-client-security](https://github.com/spring-ai-community/mcp-security) library.
 
 Fully passing: metadata-default, metadata-var1/2/3, basic-cimd,
 scope-from-www-authenticate, scope-from-scopes-supported, scope-omitted-when-undefined,
